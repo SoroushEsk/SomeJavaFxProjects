@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.paint.hwpaint.Signup"
+            prefHeight="400.0" prefWidth="600.0">
+<VBox alignment="CENTER" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0">
+    <Label text="Sign up to start listening" style="-fx-font-size: 24px; -fx-text-fill: white;"/>
+    <TextField promptText="name@domain.com" style="-fx-background-color: #333333; -fx-text-fill: white; -fx-prompt-text-fill: #aaaaaa; -fx-font-size: 16px;"/>
+    <Button text="Next" style="-fx-background-color: #1db954; -fx-text-fill: white; -fx-font-size: 18px;"/>
+</VBox>
+<stylesheets>
+    <URL value="@styles.css"/>
+</stylesheets>
+</AnchorPane>

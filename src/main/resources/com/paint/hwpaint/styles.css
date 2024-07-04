@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: #000000;
+}
+
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 10 15;
+}
+
+.button {
+    -fx-background-radius: 25;
+    -fx-padding: 10 20;
+}
